@@ -79,19 +79,19 @@
 		</dependency>
 	</dependencies>
 	 <scm>
-        <connection>scm:https://github.com/lakshmi94u/rubik_backend.git</connection>
-    <developerConnection>scm:git:https://lakshmi94u:devops0523@github.com/lakshmi94u/rubik_backend.git</developerConnection>
-    <url>https://github.com/lakshmi94u/rubik_backend.git</url>
+        <connection>scm:git:https://github.com/Nani0406/rubik_backend.git</connection>
+    <developerConnection>scm:git:https://Nani0406:Nani_0406@github.com/Nani0406/rubik_backend.git</developerConnection>
+    <url>https://github.com/Nani0406/rubik_backend.git</url>
     <tag>HEAD</tag>
   </scm>
 <distributionManagement>
 	         <snapshotRepository>
 		 <id>nexus</id>
-		<url>http://3.21.44.165:8081/nexus/content/repositories/snapshots</url>
+		<url>http://15.206.222.205:8081/nexus/content/repositories/snapshots</url>
 		 </snapshotRepository> 
 			  <repository>
 			<id>nexus-releases</id>
-			<url>http://3.21.44.165:8081/nexus/content/repositories/releases</url>
+			<url>http://15.206.222.205:8081/nexus/content/repositories/releases</url>
 	               </repository>
 		
 	</distributionManagement>
@@ -127,8 +127,8 @@
 	    <version>6.4.4</version>
 	    <configuration>
 	         <baselineOnMigrate>true</baselineOnMigrate>
-	         <url>jdbc:mysql://172.31.73.249:3306</url>
-	         <user>inguser2</user>
+	         <url>jdbc:mysql://13.233.121.125:3306</url>
+	         <user>inguser</user>
 		  <password>H@ckath0n</password>
 	      <schemas>
 	          <schema>rubikbank</schema>
